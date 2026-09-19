@@ -78,6 +78,11 @@ export default function Navbar() {
             href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAswvcELq3g-BD',
+  });
+}}
             className={`ml-4 rounded-xl font-medium tracking-wide whitespace-nowrap transition-all duration-300 bg-primary-500 text-background-50 hover:bg-primary-600 ${
               scrolled ? 'px-4 py-1 text-[13px]' : 'px-5 py-1.5 text-sm'
             }`}
@@ -112,7 +117,12 @@ export default function Navbar() {
               href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => setMobileOpen(false)}
+              onClick={() => {
+  setMobileOpen(false);
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAswvcELq3g-BD',
+  });
+}}
               className="mt-2 px-5 py-2 rounded-2xl bg-primary-500 text-background-50 text-sm font-medium text-center tracking-wide"
             >
               Solicitar Orçamento
