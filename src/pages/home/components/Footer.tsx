@@ -25,6 +25,11 @@ export default function Footer() {
               href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+  });
+}}
               className="inline-flex items-center gap-3 text-base font-semibold transition-colors duration-300 footer-contact-link group"
             >
               <i className="ri-whatsapp-line text-xl transition-colors duration-300" style={{ color: '#40382F' }}></i>
@@ -63,6 +68,11 @@ export default function Footer() {
                   href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+  });
+}}
                   className="inline-flex items-center gap-3 text-base font-semibold transition-colors duration-200 footer-contact-link group"
                 >
                   <i className="ri-whatsapp-line text-lg transition-colors duration-200" style={{ color: '#40382F' }}></i>

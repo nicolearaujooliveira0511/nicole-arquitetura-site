@@ -44,6 +44,11 @@ Mais do que projetar ambientes, desenvolvo projetos que acompanham a vida das pe
                 href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => {
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+  });
+}}
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary-500 text-background-50 text-sm font-medium tracking-wide whitespace-nowrap transition-colors duration-300 hover:bg-primary-600"
               >
                 <i className="ri-whatsapp-line text-lg"></i>

@@ -25,6 +25,11 @@ export default function CTASection() {
           href="https://wa.me/5537998430143?text=Olá,%20Nicole!%20Encontrei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20meu%20projeto."
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => {
+  (window as any).gtag?.('event', 'conversion', {
+    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+  });
+}}
           className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary-500 text-background-50 text-sm md:text-base font-medium tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-primary-600 hover:gap-5"
         >
           <span className="w-10 h-10 rounded-full bg-background-50/20 flex items-center justify-center flex-shrink-0">
