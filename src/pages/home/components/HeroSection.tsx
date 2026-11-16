@@ -25,7 +25,7 @@ export default function HeroSection() {
               rel="noopener noreferrer"
               onClick={() => {
   (window as any).gtag?.('event', 'conversion', {
-    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+    send_to: 'AW-18186558394/jmDNCIbAsvwcELq3g-BD',
   });
 }}
               className="group inline-flex items-center gap-2 px-6 py-[13px] rounded-full bg-primary-500 text-background-50 text-[15px] font-medium tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-primary-600 hover:gap-3"
