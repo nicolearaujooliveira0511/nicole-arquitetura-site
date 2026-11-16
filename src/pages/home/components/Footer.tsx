@@ -27,7 +27,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               onClick={() => {
   (window as any).gtag?.('event', 'conversion', {
-    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+    send_to: 'AW-18186558394/jmDNCIbAsvwcELq3g-BD',
   });
 }}
               className="inline-flex items-center gap-3 text-base font-semibold transition-colors duration-300 footer-contact-link group"
