@@ -27,7 +27,7 @@ export default function CTASection() {
           rel="noopener noreferrer"
           onClick={() => {
   (window as any).gtag?.('event', 'conversion', {
-    send_to: 'AW-18186558394/jmDNCIbAsvwCELq3g-BD',
+    send_to: 'AW-18186558394/jmDNCIbAsvwcELq3g-BD',
   });
 }}
           className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary-500 text-background-50 text-sm md:text-base font-medium tracking-wide whitespace-nowrap transition-all duration-300 hover:bg-primary-600 hover:gap-5"
